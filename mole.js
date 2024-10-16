@@ -3,7 +3,7 @@ let prevMoleTiles = []; // Untuk menyimpan posisi mole sebelumnya
 let currPlantTiles = [];
 let score = 0;
 let gameOver = false;
-let moleSpeed = 500; // Kecepatan awal mole
+let moleSpeed = 2000; // Kecepatan awal mole
 let moleInterval; // Menyimpan interval mole
 
 window.onload = function() {
